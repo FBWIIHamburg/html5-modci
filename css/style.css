@@ -7,22 +7,30 @@ body {
     padding: 10px;
     color: white;
     background-color: black;
+    padding-left: 10%;
+    
+    
   }
+
   
  section {
     margin: 5px;
     padding: 10px;
     background-color: lightgrey;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   
  article{
     margin: 5px;
     padding: 10px;
     background-color: white;
+  
   }
   
   menu {
     padding: 0;
+    padding-left: 10%;
   }
   
 menu ul li{
