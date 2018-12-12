@@ -8,6 +8,7 @@ body {
     color: white;
     background-color: black;
     padding-left: 10%;
+    display: flex;
     
     
   }
@@ -28,9 +29,11 @@ body {
   
   }
   
-  menu {
-    padding: 0;
-    padding-left: 70%;
+menu {
+  
+    padding-left: 60%;
+    flex: 1
+    
   }
   
 menu ul li{
