@@ -8,11 +8,14 @@ body {
     color: white;
     background-color: black;
     padding-left: 10%;
-    display: flex;
-    
+    padding-right: 10%;
     
   }
+  header{
+    display: flex;
+    justify-content: space-between;
 
+  }
   
  section {
     margin: 5px;
@@ -20,23 +23,27 @@ body {
     background-color: lightgrey;
     padding-left: 10%;
     padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+     
   }
-  
+  section>h2{
+    flex: 100%;
+
+  }
+
  article{
     margin: 5px;
     padding: 10px;
     background-color: white;
-  
+    width: 30%;
   }
   
-menu {
-  
-    padding-left: 60%;
-    flex: 1
-    
+  nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
-  
-menu ul li{
+nav ul li{
     display: inline;
     margin: 5px;
   }
